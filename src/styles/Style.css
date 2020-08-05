@@ -1,5 +1,4 @@
-/*Using bootstrapper 
-Currently v4.5.0. Code licensed MIT, docs CC BY 3.0. */
+
 hr{
     border-top: 3px solid #bbb;
 }
@@ -25,12 +24,9 @@ body{
     margin-bottom: 10px; 
 }
 img{
-    height: 300px;
-    width:  300px;
     object-fit: cover;
 }
 
-/* taken from W3Schools examples on footers*/
 .footer{
     position: fixed;
     left:0;
@@ -43,5 +39,5 @@ img{
 
 }
 a {
-    color: white;
+    color: blue;
 }
