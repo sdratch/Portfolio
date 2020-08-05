@@ -1,0 +1,47 @@
+/*Using bootstrapper 
+Currently v4.5.0. Code licensed MIT, docs CC BY 3.0. */
+hr{
+    border-top: 3px solid #bbb;
+}
+.container{
+    background-color: whitesmoke;
+}
+body{
+    background-color:grey;
+}
+.imageText{
+    position: absolute;
+    bottom:7px;
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+
+}
+.card {
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px; 
+}
+img{
+    height: 300px;
+    width:  300px;
+    object-fit: cover;
+}
+
+/* taken from W3Schools examples on footers*/
+.footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(90, 90, 90);
+    color: whitesmoke;
+
+}
+a {
+    color: white;
+}
