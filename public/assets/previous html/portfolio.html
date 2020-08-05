@@ -1,0 +1,128 @@
+<!-- Using bootstrapper 
+Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Link to bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+      <a
+        class="navbar-brand"
+        href="#"
+        style="background-color: rgb(90, 90, 90);"
+        >Sam Dratch</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Create the collapse on the navbar -->
+      <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <!-- About link -->
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <!-- About Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <!-- Contact Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </nav>
+
+    <main class="container py-3 mt-3">
+      <!-- Portfolio row -->
+      <header class="row">
+        <header class="col">
+          <h1 class="ml-3">Portfolio</h1>
+          <!-- line break below Portfolio -->
+          <hr />
+        </header>
+      </header>
+      <!-- Cards for different options 
+      Is 2 cols when above md size and 1 column when below-->
+      <section class="row row-cols-1 row-cols-md-2">
+        <!-- First Card -->
+        <article class="col mb-4">
+          <figure class="card" style = "width: 300px;">
+            <img src="./Assets/FoodForecaster.PNG" class="card-img-top" alt="Link to food forecaster">
+              <h4 class="imageText card-text"><a href = "https://sdratch.github.io/food-forecaster/">Food Forecaster</a></h4>
+          </figure>
+        </article>
+        <!-- Second Card -->
+        <article class="col mb-4">
+          <figure class="card" style = "width: 300px;">
+            <img src="./Assets/WeatherDashboard.png" class="card-img-top" alt="Link to weather dashboard">
+              <h4 class="imageText card-text"><a href = "https://sdratch.github.io/HW6-Weather-Dashboard/">Weather Dashboard</a></h4>
+          </figure>
+        </article>
+        <!-- Third Card -->
+        <article class="col mb-4">
+          <figure class="card" style = "width: 300px;">
+            <img src="./Assets/DayPlanner.png" class="card-img-top" alt="Link to day planner">
+              <h4 class="imageText card-text"><a href="https://sdratch.github.io/Hw5-Day-Planner/">Day Planner</a></h4>
+          </figure>
+        </article>
+        <!-- fourth card  -->
+        <article class="col mb-4">
+          <figure class="card" style = "width: 300px;">
+            <img src="./Assets/borger.PNG" class="card-img-top" alt="Link to borger">
+              <h4 class="imageText card-text"><a href="https://pure-caverns-67601.herokuapp.com/">Borger Eater</a></h4>
+          </figure>
+        </article>
+        <!-- Fifth Card -->
+        <article class="col mb-4">
+          <figure class="card" style = "width: 300px;">
+            <img src="./Assets/FlexCity.PNG" class="card-img-top" alt="Link toflex">
+              <h4 class="imageText card-text"><a href="https://blooming-coast-09812.herokuapp.com/">Flex City</a></h4>
+          </figure>
+        </article>
+      </section>
+    </main>
+
+
+    <!-- Bootstrap scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
