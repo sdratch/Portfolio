@@ -9,8 +9,9 @@ export function Container({ children }) {
 }
 
 // This Row component lets us use a bootstrap row without having to think about class names
-export function Row({ fluid, children }) {
-  return <div className={`row${fluid ? "-fluid" : ""}`}>{children}</div>;
+export function Row({ Port, children }) {
+
+  return <div className={`row${Port ? " row-cols-1 row-cols-md-2" : ""}`}>{children}</div>;
 }
 
 // This Col component lets us size bootstrap columns with less syntax

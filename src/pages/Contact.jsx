@@ -1,19 +1,20 @@
 import React, { Component } from "react";
+import { Container, Row, Col } from "../components/Grid";
 import "../styles/Style.css";
 class Contact extends Component {
   render() {
     return (
-      <main class="container py-3 mt-3">
-        <header class="row">
+      <Container>
+        <Row>
           <header class="col">
             <h1 class="ml-3">Contact</h1>
 
             <hr />
           </header>
-        </header>
+        </Row>
 
-        <section class="row">
-          <section class="col">
+        <Row>
+          <Col size="12">
             <form>
               <article class="form-group">
                 <label>Name</label>
@@ -37,9 +38,9 @@ class Contact extends Component {
                 <textarea class="form-control" rows="3"></textarea>
               </article>
             </form>
-          </section>
-        </section>
-      </main>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }
