@@ -18,7 +18,7 @@ class Portfolio extends Component {
           </header>
         </header>
         <section class="row row-cols-1 row-cols-md-2">
-          <article class="col mb-4">
+          <article class="col mb4">
             <figure class="card" style={{width: "300px;"}}>
               <img
                 src={Food}

@@ -1,22 +1,23 @@
 import React, { Component } from "react";
 import Self from "../assets/images/Self_Picturex2.jpg";
+import { Container, Row, Col } from "../components/Grid";
 import "../styles/Style.css";
 
 class Home extends Component {
   render() {
     return (
-      <main class="container py-3 mt-3">
-        <header class="row">
-          <header class="col">
-            <h1 class="ml-3">About Me</h1>
+      <Container>
+        <Row>
+          <Col size="12">
+            <h1 className="ml-3">About Me</h1>
             <hr />
-          </header>
-        </header>
+          </Col>
+        </Row>
 
-        <section class="row">
-          <article class="col">
+        <Row>
+          <Col size ="12">
             <figure>
-              <img class="float-left pr-4" src={Self} alt="Self" />
+              <img className="float-left pr-4" src={Self} alt="Self" />
             </figure>
 
             <p>
@@ -31,17 +32,23 @@ class Home extends Component {
               using the "contact me page" or with the linkedin link below.
             </p>
             <ul>
-              <li><a href="https://www.linkedin.com/in/sam-dratch-27a66579/">
-                Linkedin Profile
-              </a></li>
-              <li><a href="https://drive.google.com/file/d/1rHwtdAM3uNlSVZvjl6Z2HtZF05VyPitg/view?usp=sharing">
-                Resume
-              </a></li>
-              <li><a href="https://github.com/sdratch">Github</a></li>
+              <li>
+                <a href="https://www.linkedin.com/in/sam-dratch-27a66579/">
+                  Linkedin Profile
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/file/d/1rHwtdAM3uNlSVZvjl6Z2HtZF05VyPitg/view?usp=sharing">
+                  Resume
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/sdratch">Github</a>
+              </li>
             </ul>
-          </article>
-        </section>
-      </main>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }
