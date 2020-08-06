@@ -1,81 +1,20 @@
 import React, { Component } from "react";
 import { Container, Row } from "../components/Grid";
 import Header from "../components/Header"
+import Cards from "../components/Cards"
 import "../styles/Style.css";
-import Borger from "../assets/images/borger.PNG";
-import Weather from "../assets/images/WeatherDashboard.png";
-import Flex from "../assets/images/FlexCity.PNG";
-import Day from "../assets/images/DayPlanner.png";
-import Food from "../assets/images/FoodForecaster.PNG";
+import projects from "../projects.json"
 
 class Portfolio extends Component {
+ 
   render() {
     return (
       <Container>
         <Header title = "Portfolio"/>
         <Row Port>
-          <article class="col mb4">
-            <figure class="card" style={{ width: "300px;" }}>
-              <img
-                src={Food}
-                class="card-img-top"
-                alt="Link to food forecaster"
-              />
-              <h4 class="imageText card-text">
-                <a href="https://sdratch.github.io/food-forecaster/">
-                  Food Forecaster
-                </a>
-              </h4>
-            </figure>
-          </article>
-
-          <article class="col mb-4">
-            <figure class="card" style={{ width: "300px;" }}>
-              <img
-                src={Weather}
-                class="card-img-top"
-                alt="Link to weather dashboard"
-              />
-              <h4 class="imageText card-text">
-                <a href="https://sdratch.github.io/HW6-Weather-Dashboard/">
-                  Weather Dashboard
-                </a>
-              </h4>
-            </figure>
-          </article>
-
-          <article class="col mb-4">
-            <figure class="card" style={{ width: "300px;" }}>
-              <img src={Day} class="card-img-top" alt="Link to day planner" />
-              <h4 class="imageText card-text">
-                <a href="https://sdratch.github.io/Hw5-Day-Planner/">
-                  Day Planner
-                </a>
-              </h4>
-            </figure>
-          </article>
-
-          <article class="col mb-4">
-            <figure class="card" style={{ width: "300px;" }}>
-              <img src={Borger} class="card-img-top" alt="Link to borger" />
-              <h4 class="imageText card-text">
-                <a href="https://pure-caverns-67601.herokuapp.com/">
-                  Borger Eater
-                </a>
-              </h4>
-            </figure>
-          </article>
-
-          <article class="col mb-4">
-            <figure class="card" style={{ width: "300px;" }}>
-              <img src={Flex} class="card-img-top" alt="Link toflex" />
-              <h4 class="imageText card-text">
-                <a href="https://blooming-coast-09812.herokuapp.com/">
-                  Flex City
-                </a>
-              </h4>
-            </figure>
-          </article>
+        {projects.map(project =>(
+          <Cards key = {project.id} name = {project.name} href = {project.href} image = {project.image}/>
+        ))}
         </Row>
       </Container>
     );
