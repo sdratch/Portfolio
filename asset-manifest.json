@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.f7ec376f.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.8278850c.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.8278850c.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.f54060b7.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.f54060b7.js.map",
-    "static/js/2.d0c1485f.chunk.js": "/react-gh-pages/static/js/2.d0c1485f.chunk.js",
-    "static/js/2.d0c1485f.chunk.js.map": "/react-gh-pages/static/js/2.d0c1485f.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.a3f1fbf3e97a6a0d5bc7adfcba5d2728.js": "/react-gh-pages/precache-manifest.a3f1fbf3e97a6a0d5bc7adfcba5d2728.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/main.f7ec376f.chunk.css.map": "/react-gh-pages/static/css/main.f7ec376f.chunk.css.map",
-    "static/js/2.d0c1485f.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.d0c1485f.chunk.js.LICENSE.txt",
-    "static/media/DayPlanner.png": "/react-gh-pages/static/media/DayPlanner.2c1e5510.png",
-    "static/media/FlexCity.PNG": "/react-gh-pages/static/media/FlexCity.5017950b.PNG",
-    "static/media/FoodForecaster.PNG": "/react-gh-pages/static/media/FoodForecaster.9f7ead6d.PNG",
-    "static/media/Self_Picture.jpg": "/react-gh-pages/static/media/Self_Picture.1ca9b73b.jpg",
-    "static/media/Self_Picturex2.jpg": "/react-gh-pages/static/media/Self_Picturex2.1edb3b8f.jpg",
-    "static/media/WeatherDashboard.png": "/react-gh-pages/static/media/WeatherDashboard.81f4fe23.png",
-    "static/media/borger.PNG": "/react-gh-pages/static/media/borger.a6510434.PNG",
-    "static/media/word.png": "/react-gh-pages/static/media/word.360b09e4.png"
+    "main.css": "/Portfilio/static/css/main.f7ec376f.chunk.css",
+    "main.js": "/Portfilio/static/js/main.4c0a0888.chunk.js",
+    "main.js.map": "/Portfilio/static/js/main.4c0a0888.chunk.js.map",
+    "runtime-main.js": "/Portfilio/static/js/runtime-main.88181982.js",
+    "runtime-main.js.map": "/Portfilio/static/js/runtime-main.88181982.js.map",
+    "static/js/2.d0c1485f.chunk.js": "/Portfilio/static/js/2.d0c1485f.chunk.js",
+    "static/js/2.d0c1485f.chunk.js.map": "/Portfilio/static/js/2.d0c1485f.chunk.js.map",
+    "index.html": "/Portfilio/index.html",
+    "precache-manifest.9bfda51c7214113d552bd01c59539288.js": "/Portfilio/precache-manifest.9bfda51c7214113d552bd01c59539288.js",
+    "service-worker.js": "/Portfilio/service-worker.js",
+    "static/css/main.f7ec376f.chunk.css.map": "/Portfilio/static/css/main.f7ec376f.chunk.css.map",
+    "static/js/2.d0c1485f.chunk.js.LICENSE.txt": "/Portfilio/static/js/2.d0c1485f.chunk.js.LICENSE.txt",
+    "static/media/DayPlanner.png": "/Portfilio/static/media/DayPlanner.2c1e5510.png",
+    "static/media/FlexCity.PNG": "/Portfilio/static/media/FlexCity.5017950b.PNG",
+    "static/media/FoodForecaster.PNG": "/Portfilio/static/media/FoodForecaster.9f7ead6d.PNG",
+    "static/media/Self_Picture.jpg": "/Portfilio/static/media/Self_Picture.1ca9b73b.jpg",
+    "static/media/Self_Picturex2.jpg": "/Portfilio/static/media/Self_Picturex2.1edb3b8f.jpg",
+    "static/media/WeatherDashboard.png": "/Portfilio/static/media/WeatherDashboard.81f4fe23.png",
+    "static/media/borger.PNG": "/Portfilio/static/media/borger.a6510434.PNG",
+    "static/media/word.png": "/Portfilio/static/media/word.360b09e4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f54060b7.js",
+    "static/js/runtime-main.88181982.js",
     "static/js/2.d0c1485f.chunk.js",
     "static/css/main.f7ec376f.chunk.css",
-    "static/js/main.8278850c.chunk.js"
+    "static/js/main.4c0a0888.chunk.js"
   ]
 }
