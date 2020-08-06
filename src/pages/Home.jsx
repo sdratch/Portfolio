@@ -1,19 +1,15 @@
 import React, { Component } from "react";
 import Self from "../assets/images/Self_Picturex2.jpg";
 import { Container, Row, Col } from "../components/Grid";
+import Header from "../components/Header"
 import "../styles/Style.css";
 
 class Home extends Component {
   render() {
     return (
       <Container>
-        <Row>
-          <Col size="12">
-            <h1 className="ml-3">About Me</h1>
-            <hr />
-          </Col>
-        </Row>
-
+        <Header title = "About Me"/>
+        
         <Row>
           <Col size ="12">
             <figure>

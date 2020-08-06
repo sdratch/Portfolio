@@ -1,18 +1,12 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "../components/Grid";
+import Header from "../components/Header"
 import "../styles/Style.css";
 class Contact extends Component {
   render() {
     return (
       <Container>
-        <Row>
-          <header class="col">
-            <h1 class="ml-3">Contact</h1>
-
-            <hr />
-          </header>
-        </Row>
-
+        <Header title = "Contact"/>
         <Row>
           <Col size="12">
             <form>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row } from "../components/Grid";
+import Header from "../components/Header"
 import "../styles/Style.css";
 import Borger from "../assets/images/borger.PNG";
 import Weather from "../assets/images/WeatherDashboard.png";
@@ -11,14 +12,7 @@ class Portfolio extends Component {
   render() {
     return (
       <Container>
-        <Row>
-          <header class="col">
-            <h1 class="ml-3">Portfolio</h1>
-
-            <hr />
-          </header>
-        </Row>
-        
+        <Header title = "Portfolio"/>
         <Row Port>
           <article class="col mb4">
             <figure class="card" style={{ width: "300px;" }}>
