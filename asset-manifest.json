@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfilio/static/css/main.f7ec376f.chunk.css",
-    "main.js": "/Portfilio/static/js/main.4c0a0888.chunk.js",
-    "main.js.map": "/Portfilio/static/js/main.4c0a0888.chunk.js.map",
-    "runtime-main.js": "/Portfilio/static/js/runtime-main.88181982.js",
-    "runtime-main.js.map": "/Portfilio/static/js/runtime-main.88181982.js.map",
-    "static/js/2.d0c1485f.chunk.js": "/Portfilio/static/js/2.d0c1485f.chunk.js",
-    "static/js/2.d0c1485f.chunk.js.map": "/Portfilio/static/js/2.d0c1485f.chunk.js.map",
-    "index.html": "/Portfilio/index.html",
-    "precache-manifest.9bfda51c7214113d552bd01c59539288.js": "/Portfilio/precache-manifest.9bfda51c7214113d552bd01c59539288.js",
-    "service-worker.js": "/Portfilio/service-worker.js",
-    "static/css/main.f7ec376f.chunk.css.map": "/Portfilio/static/css/main.f7ec376f.chunk.css.map",
-    "static/js/2.d0c1485f.chunk.js.LICENSE.txt": "/Portfilio/static/js/2.d0c1485f.chunk.js.LICENSE.txt",
-    "static/media/DayPlanner.png": "/Portfilio/static/media/DayPlanner.2c1e5510.png",
-    "static/media/FlexCity.PNG": "/Portfilio/static/media/FlexCity.5017950b.PNG",
-    "static/media/FoodForecaster.PNG": "/Portfilio/static/media/FoodForecaster.9f7ead6d.PNG",
-    "static/media/Self_Picture.jpg": "/Portfilio/static/media/Self_Picture.1ca9b73b.jpg",
-    "static/media/Self_Picturex2.jpg": "/Portfilio/static/media/Self_Picturex2.1edb3b8f.jpg",
-    "static/media/WeatherDashboard.png": "/Portfilio/static/media/WeatherDashboard.81f4fe23.png",
-    "static/media/borger.PNG": "/Portfilio/static/media/borger.a6510434.PNG",
-    "static/media/word.png": "/Portfilio/static/media/word.360b09e4.png"
+    "main.css": "/Portfolio/static/css/main.f7ec376f.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a84403a6.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a84403a6.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
+    "static/js/2.d0c1485f.chunk.js": "/Portfolio/static/js/2.d0c1485f.chunk.js",
+    "static/js/2.d0c1485f.chunk.js.map": "/Portfolio/static/js/2.d0c1485f.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.83e410db45232b6c6c988a7ed69515bf.js": "/Portfolio/precache-manifest.83e410db45232b6c6c988a7ed69515bf.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.f7ec376f.chunk.css.map": "/Portfolio/static/css/main.f7ec376f.chunk.css.map",
+    "static/js/2.d0c1485f.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d0c1485f.chunk.js.LICENSE.txt",
+    "static/media/DayPlanner.png": "/Portfolio/static/media/DayPlanner.2c1e5510.png",
+    "static/media/FlexCity.PNG": "/Portfolio/static/media/FlexCity.5017950b.PNG",
+    "static/media/FoodForecaster.PNG": "/Portfolio/static/media/FoodForecaster.9f7ead6d.PNG",
+    "static/media/Self_Picture.jpg": "/Portfolio/static/media/Self_Picture.1ca9b73b.jpg",
+    "static/media/Self_Picturex2.jpg": "/Portfolio/static/media/Self_Picturex2.1edb3b8f.jpg",
+    "static/media/WeatherDashboard.png": "/Portfolio/static/media/WeatherDashboard.81f4fe23.png",
+    "static/media/borger.PNG": "/Portfolio/static/media/borger.a6510434.PNG",
+    "static/media/word.png": "/Portfolio/static/media/word.360b09e4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.88181982.js",
+    "static/js/runtime-main.e440ee5a.js",
     "static/js/2.d0c1485f.chunk.js",
     "static/css/main.f7ec376f.chunk.css",
-    "static/js/main.4c0a0888.chunk.js"
+    "static/js/main.a84403a6.chunk.js"
   ]
 }
